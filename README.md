@@ -1,2 +1,2 @@
-# HealhyWealthy
+# HealthyWealthy
 My first website project
