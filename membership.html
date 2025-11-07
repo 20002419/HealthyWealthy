@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Membership — Healthy Wealthy</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="nav-center">
+      <img src="C:\Users\hafiz\OneDrive\Desktop\HealthyWealthy\assets\images\logo.png.jpg">
+      <h1 class="brand">Healthy Wealthy</h1>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="membership.html" class="active">Membership</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <header class="page-header">
+      <h1>Membership Plans</h1>
+      <p>Choose a plan that fits your goals and schedule.</p>
+    </header>
+
+    <section class="cards-grid">
+      <article class="card" onclick="buyMembership('Day Pass')">
+        <h3>Day Pass</h3>
+        <p>£5 — One-day access</p>
+        <button class="btn">Buy Now</button>
+      </article>
+
+      <article class="card featured" onclick="buyMembership('Monthly Plan')">
+        <h3>Monthly Plan</h3>
+        <p>£40 / month — Great for regular training</p>
+        <button class="btn">Join Monthly</button>
+      </article>
+
+      <article class="card" onclick="buyMembership('Annual Plan')">
+        <h3>Annual Plan</h3>
+        <p>£400 / year — Best value for long-term commitment</p>
+        <button class="btn">Join Annual</button>
+      </article>
+    </section>
+
+    <section>
+      <h2>Special Offers</h2>
+      <p>🎓 Student discount: <strong>35%</strong> | 👥 Referral bonus: <strong>15%</strong></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <a href="index.html">Home</a> ·
+      <a href="about.html">About</a> ·
+      <a href="mailto:info@healthywealthy.com">Contact</a>
+    </div>
+    <small>© 2025 Healthy Wealthy. All rights reserved.</small>
+  </footer>
+
+  <button id="modeToggle" class="mode-btn">🌙</button>
+  <button id="scrollTop" class="scroll-btn">⬆</button>
+  <button id="scrollBottom" class="scroll-btn">⬇</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

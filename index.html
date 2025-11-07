@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Healthy Wealthy — Home</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="nav">
+    <div class="nav-center">
+      <img src="assets/images/logo.png" alt="Healthy Wealthy logo" class="logo">
+      <h1 class="brand">Healthy Wealthy</h1>
+    </div>
+
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="membership.html">Membership</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-inner">
+      <img src="C:\Users\hafiz\OneDrive\Desktop\HealthyWealthy\assets\images\logo.png.jpg"/>
+      <h1>Train Smart. Live Strong.</h1>
+      <p>Your fitness journey starts here — inclusive, affordable, and fun.</p>
+      <div class="hero-cta">
+        <a class="btn" href="membership.html">View Membership Plans</a>
+        <a class="btn ghost" href="about.html">Learn More</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="features">
+      <article onclick="featurePopup('Inclusive for Everyone')">
+        <h2>Inclusive for Everyone</h2>
+        <p>Programs that fit all levels and goals.</p>
+      </article>
+      <article onclick="featurePopup('Expert Trainers')">
+        <h2>Expert Trainers</h2>
+        <p>Certified trainers guide your journey.</p>
+      </article>
+      <article onclick="featurePopup('Modern Facilities')">
+        <h2>Modern Facilities</h2>
+        <p>Clean, inspiring equipment and spaces.</p>
+      </article>
+    </section>
+
+    <!-- Registration Form -->
+    <section class="register">
+      <h2>Join Healthy Wealthy</h2>
+      <form id="registerForm">
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="email" id="email" placeholder="Email Address" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button type="submit" class="btn">Register</button>
+      </form>
+      <p id="formMessage"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <a href="about.html">About</a> ·
+      <a href="membership.html">Membership</a> ·
+      <a href="mailto:info@healthywealthy.com">Contact</a>
+    </div>
+    <small>© 2025 Healthy Wealthy. All rights reserved.</small>
+  </footer>
+
+  <!-- Floating Buttons -->
+  <button id="modeToggle" class="mode-btn">🌙</button>
+  <button id="scrollTop" class="scroll-btn">⬆</button>
+  <button id="scrollBottom" class="scroll-btn">⬇</button>
+
+  <!-- Cookie Banner -->
+  <div id="cookieBanner" class="cookie-banner">
+    <p>We use cookies to improve your experience. By continuing, you agree to our cookie policy.</p>
+    <button id="acceptCookies">Accept</button>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
